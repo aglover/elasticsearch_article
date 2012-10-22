@@ -5,6 +5,7 @@ Example code for IBM developerWorks article on ElasticSearch
 
 * Maven
 * ElasticSearch (version 0.19.10+)
+* An API key for [USA Today API](http://developer.usatoday.com/)
 
 # How to get started
 
