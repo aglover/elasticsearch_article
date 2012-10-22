@@ -32,7 +32,7 @@ public class MusicReviewLoad {
         JestClient client = factory.getObject();
 
 
-        URL url = new URL("http://api.usatoday.com/open/reviews/music/recent?count=300&api_key=a9efy36q545zhsckjpu8mmzy");
+        URL url = new URL("http://api.usatoday.com/open/reviews/music/recent?count=300&api_key=_your_key_");
         InputStream urlInputStream = url.openConnection().getInputStream();
         String jsonTxt = IOUtils.toString(urlInputStream);
         JSONObject json = (JSONObject) JSONSerializer.toJSON(jsonTxt);
